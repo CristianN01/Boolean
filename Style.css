@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+/*  corpo con background */
+body{
+  background-image: url(background.jpg);
+  background-size: cover; 
+
+.container{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 1200px; height: 800px;
+  margin-left: 350px;
+  margin-top: 20px;
+  margin-right: 400px;
+  border-radius: 2%;
+
+}
+
+div > header{
+  text-align: center;
+}
+
+div > nav{
+  text-align: center;
+}
+
+#logo{
+width: 200px; height: auto;
+margin-top: 125px;
+color: rgb(0, 50, 0);
+}
+/* Titolo pagina  */
+.titolo{
+  color: rgb(0, 238, 0);
+  font-family: cursive;
+  font-size: 150%;
+}
+/*  parte navigazione con i tre bottoni */
+.nav{
+  width: 1000px; height: 40px;
+  background-color: rgb(0,238,0);
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+ div input{
+   margin-top: 8px;
+ }
+
+#checkbox{
+  margin-left: 105px;
+
+}
+/* Assegnazione Monopattino */
+.monopattino{
+  font-family: cursive;
+  color: white;
+  font-size: 20px;
+  display: inline-block;
+}
+/* Informazioni e distanza */
+.distanza{
+  color: white;
+  font-family: cursive;
+  margin-left: 105px;
+
+}
+
+.barracarica1{
+  width: 27%; height: 30px;
+  background-color: orange;
+  margin-left: 105px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border-radius: 7px;
+}
+
+.barracarica2{
+  width: 50%; height: 30px;
+  background-color: rgb(0, 139, 0);
+  margin-left: 105px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border-radius: 7px;
+}
+
+.barracarica3{
+  width: 13%; height: 30px;
+  background-color: rgb(176,23,31);
+  margin-left: 105px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border-radius: 7px;
+}
